@@ -348,6 +348,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "android.hardware.graphics.mapper-impl-qti-display",
+	owner: "realme",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "c2_manifest_vendor",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor.xml",
@@ -360,6 +369,24 @@ prebuilt_etc_xml {
 	name: "vendor.qti.gnss-service",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.hardware.display.allocator-service",
+	owner: "realme",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.hardware.display.composer-service",
+	owner: "realme",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
